@@ -1,4 +1,4 @@
-package com.github.softwaresale.annotations
+package com.github.softwaresale.spreadsheetData.annotations
 
 import kotlin.reflect.KClass
 
