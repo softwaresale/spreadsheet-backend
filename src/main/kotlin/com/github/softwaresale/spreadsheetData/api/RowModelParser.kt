@@ -11,6 +11,9 @@ import kotlin.reflect.KParameter
 import kotlin.reflect.full.declaredMemberProperties
 import kotlin.reflect.full.findAnnotation
 
+/**
+ * Parses a row or a number of rows into a class
+ */
 class RowModelParser<T : Any>(
         private val parsedTypeClass: KClass<T>,
         private val worksheet: XSSFSheet,
